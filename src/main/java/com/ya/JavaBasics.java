@@ -37,7 +37,7 @@ public class JavaBasics {
         System.out.println("Сложение " + sByte + " и " + sInt + " = " + sum(sByte, sInt));
         System.out.println("Умножение " + sShort + " на " + sByte + " = " +  multiplication(sShort, sByte));
         System.out.println("Деление " + sLong + " на " + sByte + " = " + divide((int) sLong, sByte));
-        System.out.println("Остаток " + sInt + " на " + 20 + " = " + modulo(sInt, 20));
+        System.out.println("Остаток " + sInt + " на " + 20 + " = " + ost(sInt, 20));
         System.out.println("Результат сложения " + sFloat + " и " + sDouble + " = " + sum(sFloat, sDouble));
         System.out.print(sText);
 
@@ -66,7 +66,7 @@ public class JavaBasics {
     static int divide(int a, int b) {
         return a / b;
     }
-    static int modulo(int a, int b) {
+    static int ost(int a, int b) {
         return a % b;
     }
     static double sum(double a, double b) {
